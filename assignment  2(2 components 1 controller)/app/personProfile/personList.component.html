@@ -1,0 +1,12 @@
+<div>
+    <table>
+        <tr ng-repeat="person in ctrl.persons track by $index">
+            <td><span>{{person.name}}</span></td>
+            <td><button ng-click="ctrl.showProfile(person)">See</button></td>
+        </tr>
+    </table> 
+</div>
+
+    
+
+
